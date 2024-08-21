@@ -19,3 +19,6 @@
 [submodule "Config-Service"]
 	path = Config-Service
 	url = https://github.com/DoctorForU/Config-Service.git
+[submodule "User-Service"]
+	path = User-Service
+	url = https://github.com/DoctorForU/UserService.git
