@@ -25,3 +25,6 @@
 [submodule "Reservation-Service"]
 	path = Reservation-Service
 	url = https://github.com/DoctorForU/Reservation-Service.git
+[submodule "Emergency-Service"]
+	path = Emergency-Service
+	url = https://github.com/DoctorForU/Emergency-Service.git
