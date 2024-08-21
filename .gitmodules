@@ -1,0 +1,18 @@
+[submodule "path/to/repo1"]
+	path = path/to/repo1
+	url = https://github.com/DoctorForU/MypageService.git
+[submodule "MypageService"]
+	path = MypageService
+	url = https://github.com/DoctorForU/MypageService.git
+[submodule "service-discovery"]
+	path = service-discovery
+	url = https://github.com/DoctorForU/service-discovery.git
+[submodule "apigateway-service"]
+	path = apigateway-service
+	url = https://github.com/DoctorForU/apigateway-service.git
+[submodule "Hospital-Service"]
+	path = Hospital-Service
+	url = https://github.com/DoctorForU/Hospital-Service.git
+[submodule "Api-Service"]
+	path = Api-Service
+	url = https://github.com/TirTir/Api-Service.git
