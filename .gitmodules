@@ -22,3 +22,6 @@
 [submodule "User-Service"]
 	path = User-Service
 	url = https://github.com/DoctorForU/UserService.git
+[submodule "Reservation-Service"]
+	path = Reservation-Service
+	url = https://github.com/DoctorForU/Reservation-Service.git
