@@ -16,3 +16,6 @@
 [submodule "Api-Service"]
 	path = Api-Service
 	url = https://github.com/TirTir/Api-Service.git
+[submodule "Config-Service"]
+	path = Config-Service
+	url = https://github.com/DoctorForU/Config-Service.git
