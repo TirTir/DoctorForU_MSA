@@ -24,13 +24,6 @@
   </br>
 </p>
 
-- 사용자의 모든 요청은 `Spring Cloud Gateway`를 통해 처리되며, 이는 트래픽 관리와 로드 밸런싱, 인증 및 권한 부여를 담당
-- `Config Server`를 통해 각 서비스별 설정을 DoctorForU Git에서 중앙 관리
-- 핵심 서비스에 `Circuit Breaker`를 적용하여, 외부 API 호출 실패 시 빠르게 대응함으로써 시스템의 전반적인 안정성 보장
-
-<br>
-<br>
-
 
 ### 기술 스택
 
@@ -80,24 +73,20 @@
   <br/>
 </p>
 
+**[ MSA 클라우드 구축 ]**
 
-
-
-**[ Hospital 서비스 ]**
+<br>
 
 <p>
-  <img src="https://github.com/user-attachments/assets/d05c485e-0f39-472d-b0f0-d0d71129a398" width="500" height="300">
+  <img src="https://github.com/user-attachments/assets/74174e45-37e1-49a0-b934-a9f7245c5a60" width="500" height="200">
   <br/>
 </p>
 
+- 사용자의 모든 요청은 `Spring Cloud Gateway`를 통해 처리되며, 이는 트래픽 관리와 로드 밸런싱, 인증 및 권한 부여를 담당
+- `Config Server`를 통해 각 서비스별 설정을 DoctorForU Git에서 중앙 관리
+- 핵심 서비스에 `Circuit Breaker`를 적용하여, 외부 API 호출 실패 시 빠르게 대응함으로써 시스템의 전반적인 안정성 보장
 
-사용자의 요청에 따라 병원 정보 및 길찾기, 실시간 응급실 현황, 특정 병원의 응급 메세지 등을 사용자에게 제공합니다. 
-
-<p>
-  <br/>
-</p>
-
-
+<br>
 
 **[ 모니터링 ]**
 
@@ -111,6 +100,7 @@
     - Prometheus로 실시간 자원 사용량 모니터링
     - Grafana 대시보드를 통해 CPU, 메모리, 네트워크 등 자원 상태 시각화
     - 자원 사용량 분석 및 최적화를 통한 효율적인 시스템 운영
+ 
 - **운영 업무 측면**
     - MSA의 각 서비스 엔드포인트 상태 추적
     - 서비스 간 트래픽 및 요청/응답 시간 모니터링
